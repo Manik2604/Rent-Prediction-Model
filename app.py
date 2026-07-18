@@ -79,14 +79,6 @@ https://github.com/Manik2604/Rent-Prediction-Model
 * Git & GitHub
 """
 
-## 📋 Instructions
-1. Clone the repository
-   git clone https://github.com/Manik2604/Rent-Prediction-Model.git
-2. Install dependencies
-   pip install gradio scikit-learn pandas numpy joblib
-3. Make sure the file Rent_Prediction_Model.pkl is present in the project folder.
-4. Run python app.py
-
 
 with gr.Blocks(css=custom_css, title="Property Rent Predictor") as interface:
     with gr.Column(elem_classes="glass-container"):
