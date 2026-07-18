@@ -79,8 +79,6 @@ https://github.com/Manik2604/Rent-Prediction-Model
 * Git & GitHub
 """
 
----
-
 ## 📋 Instructions
 1. Clone the repository
    git clone https://github.com/Manik2604/Diabetes-Prediction-Model.git
