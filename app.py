@@ -81,10 +81,10 @@ https://github.com/Manik2604/Rent-Prediction-Model
 
 ## 📋 Instructions
 1. Clone the repository
-   git clone https://github.com/Manik2604/Diabetes-Prediction-Model.git
+   git clone https://github.com/Manik2604/Rent-Prediction-Model.git
 2. Install dependencies
    pip install gradio scikit-learn pandas numpy joblib
-3. Make sure the file diabetes_prediction_model1.pkl is present in the project folder.
+3. Make sure the file Rent_Prediction_Model.pkl is present in the project folder.
 4. Run python app.py
 
 
