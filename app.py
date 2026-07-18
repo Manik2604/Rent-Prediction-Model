@@ -111,5 +111,5 @@ with gr.Blocks(css=custom_css, title="Property Rent Predictor") as interface:
                 * *Joblib*: Model serialization and loading.
                 """)
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     interface.launch(server_name="0.0.0.0", server_port=int(os.environ.get("PORT", 7860)))
