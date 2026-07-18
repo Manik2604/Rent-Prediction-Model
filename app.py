@@ -47,38 +47,6 @@ custom_css = """
 """
 # ---------------------------------------------------
 
-DESCRIPTION = """
-# Rent Prediction Model
-
----
-
-## 👩‍💻 Developed By
-*Manik*
-
----
-
-## 🏫 College
-*Panipat Institute of Engineering & Technology (PIET), Panipat*
-
----
-
-## 🔗 GitHub Repository
-https://github.com/Manik2604/Rent-Prediction-Model
-
----
-
-## 🛠️ Tools & Technologies
-* Python
-* Machine Learning
-* Decision Tree Classifier
-* Scikit-learn
-* Pandas
-* NumPy
-* Joblib
-* Gradio
-* Git & GitHub
-"""
-
 
 with gr.Blocks(css=custom_css, title="Property Rent Predictor") as interface:
     with gr.Column(elem_classes="glass-container"):
