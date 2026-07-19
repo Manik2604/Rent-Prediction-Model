@@ -1,3 +1,5 @@
+# app.py
+
 import os 
 #file handling
 import gradio as gr
@@ -47,7 +49,6 @@ custom_css = """
 """
 # ---------------------------------------------------
 
-
 with gr.Blocks(css=custom_css, title="Property Rent Predictor") as interface:
     with gr.Column(elem_classes="glass-container"):
         gr.Markdown("<h1 style='text-align: center;'>🏙️ Property Rent Predictor</h1>")
@@ -79,5 +80,5 @@ with gr.Blocks(css=custom_css, title="Property Rent Predictor") as interface:
                 * *Joblib*: Model serialization and loading.
                 """)
 
-if __name__ == "__main__":
+if _name_ == "_main_":
     interface.launch(server_name="0.0.0.0", server_port=int(os.environ.get("PORT", 7860)))
