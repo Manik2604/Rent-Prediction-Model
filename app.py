@@ -12,7 +12,7 @@ def predict_rent(size_of_prop):
     # The model expects a 2D array: [[size]], it will give the rent of the property
     prediction = deployed_lr.predict([[size_of_prop]])
     # Extract the single prediction value and format it, this is the return of price
-    return f"Estimated Rent: ${prediction[0]:.2f}"
+    return f"Estimated Rent: {prediction[0]:.2f}"
 
 # --- CODE BLOCK: UPDATED CSS FOR TEXT VISIBILITY ---
 # Added explicit dark color overrides for text, headers, and links so they contrast against the white glass container
@@ -69,6 +69,11 @@ with gr.Blocks(css=custom_css, title="Property Rent Predictor") as interface:
             # Right Column: Developer Details & Tools
             with gr.Column(scale=1):
                 gr.Markdown("### 👨‍💻 About the Developer")
+                gr.Markdown("**Manik**")
+                gr.Markdown("### 🏫 College name")
+                gr.Markdown("**Panipat Institute of Engineering and Technology**")
+                
+                
                 gr.Markdown("### 🛠️ Tools Used")
                 gr.Markdown("""
                 * **Python**: Core programming language.
